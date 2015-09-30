@@ -12,6 +12,9 @@ Or just copy as follows:
 
 ```html
 <div class="revealButtonContainer" >
+  <div class="revealButton_successBox">
+    <span class="revealButton_successText">THANKS!</span>
+  </div>
   <div class="revealButton_transitioner">
     <div class="revealButton_fullTextBox  js-revealButton_triggerShow">
       <span class="revealButton_fullText">REQUEST INVITE</span>
@@ -28,7 +31,10 @@ Or just copy as follows:
 ### How to toggle the animation.
 
 In order to trigger the animation the revealButtonContainer div needs to get the class `show` added. In the demo here we are simply using jquery but this belongs to userland whatever tool that can simply add a class, including vanilla js, will make it.
+For the success state just add `success` to the revealButtonContainer.
 
 ### Customization
 
 - To change the size just adjust the width or height of the revealButtonContainer div.
+- For font style or font size the same. Just replace the font size in the styles, same for color and background.
+- IMPORTANT: The only thigns to take care of are the sizes of the internal parts of the component, as well as its paddings or margins, do not modify those without testing it in multiple browsers.
