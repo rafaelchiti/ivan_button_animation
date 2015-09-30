@@ -15,7 +15,13 @@
 
   <div class="exampleBox">
     <div class="revealButtonContainer" >
+
+      <div class="revealButton_successBox">
+        <span class="revealButton_successText">THANKS!</span>
+      </div>
+
       <div class="revealButton_transitioner">
+
         <div class="revealButton_fullTextBox  js-revealButton_triggerShow">
           <span class="revealButton_fullText">REQUEST INVITE</span>
         </div>
@@ -30,6 +36,10 @@
 
   <div class="exampleBox">
     <div class="revealButtonContainer" style="height: 100px" >
+      <div class="revealButton_successBox">
+        <span class="revealButton_successText">THANKS!</span>
+      </div>
+
       <div class="revealButton_transitioner">
         <div class="revealButton_fullTextBox  js-revealButton_triggerShow">
           <span class="revealButton_fullText">REQUEST INVITE</span>
@@ -45,6 +55,11 @@
 
   <div class="exampleBox exampleBox_large">
     <div class="revealButtonContainer" style="height: 100px" >
+
+      <div class="revealButton_successBox">
+        <span class="revealButton_successText">THANKS!</span>
+      </div>
+
       <div class="revealButton_transitioner">
         <div class="revealButton_fullTextBox  js-revealButton_triggerShow">
           <span class="revealButton_fullText">REQUEST INVITE</span>
@@ -65,7 +80,7 @@
     })
 
     $(".revealButton_button").click(function(ev) {
-      alert("Button clicked!!");
+      $(ev.target).parents(".revealButtonContainer").addClass("success");
     })
   </script>
 
