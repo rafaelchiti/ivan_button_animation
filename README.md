@@ -25,6 +25,10 @@ Or just copy as follows:
 </div>
 ```
 
+### How to toggle the animation.
+
+In order to trigger the animation the revealButtonContainer div needs to get the class `show` added. In the demo here we are simply using jquery but this belongs to userland whatever tool that can simply add a class, including vanilla js, will make it.
+
 ### Customization
 
 - To change the size just adjust the width or height of the revealButtonContainer div.
