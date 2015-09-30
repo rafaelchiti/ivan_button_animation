@@ -35,8 +35,8 @@
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 
-  -webkit-transition: -webkit-transform .3s;
-  transition: transform .3s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: transform .2s;
 }
 
 .revealButton_successText {
